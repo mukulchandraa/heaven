@@ -51,12 +51,6 @@ header{
    -webkit-transformation-duration:0.3s;
    -webkit-transition-property: box-shadow,transform;
     transition-property: box-shadow,transform;
-    
-
-
-  
-
-   
 }
 
 
@@ -75,14 +69,19 @@ li .list  img:hover, li .list  img:focus, li .list  img:active{
  
 
 
- main{
-    height: 72vh;
-    background-color: rgb(255, 255, 255);
-    overflow: hidden;
+
+    main {
+            height: 59vh;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
  
     
    
- }
+ 
  main #heaven{
      background: rgb(255, 255, 255);
      height: 82px;
@@ -96,25 +95,38 @@ li .list  img:hover, li .list  img:focus, li .list  img:active{
 
  }
 #container {
-    display: flex;
+display: flex;
 justify-content: center;
 align-items: center;
 height: 42px;
 width: 562px;
 border: 2px solid #eee;
 border-radius: 45px;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
 cursor: pointer;
 box-shadow: 0px 0 1px;
-
-   
-    
 }
 
+.singup-login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0 10px 0px;
+    text-decoration: navy;
+    font-size: 1rem;
+    color: black;
+}
 
+.singup-login-container a {
+    text-decoration: none;
+    color: #0098c5;
+    margin: 5px;
+}
+
+.singup-login-container a:hover{
+text-decoration:underline;
+
+}
 
 #container input{
     border: none;
@@ -126,8 +138,6 @@ box-shadow: 0px 0 1px;
     font-size: medium;
     font-family: sans-serif;
     margin: auto;
-   
-
 }
 
 #container img{
@@ -182,10 +192,8 @@ box-shadow: 0px 0 1px;
 .btn button:hover, .btn button:focus, .btn button:active{
      background: #0098c5;
      color: rgb(255, 255, 255);
-    
-     -webkit-transform: scale(1.1);
-     transform: scale(1.1);
-
+    -webkit-transform: scale(1.05);
+     transform: scale(1.05);
  }
  
   

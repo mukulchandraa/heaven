@@ -18,7 +18,7 @@ include 'config.php';
 <body>
   <header>
     <div class="navbar">
-      <li><a href="#" class="list"><img src="img/home.png" alt="Home"></a></li>
+      <li><a href="index" class="list"><img src="img/home.png" alt="Home"></a></li>
       <li><a href="#" class="list"><img src="img/message.png" alt="messages"></a></li>
       <li><a href="#" class="list"><img src="img/notification.png" alt="notificatons"></a></li>
       <li><a href="#" class="list"><img src="img/setting.png" alt="settings"></a></li>
@@ -31,6 +31,7 @@ include 'config.php';
         type="text" placeholder="Search or post to your community" id="Search">
       <div class="btn"><button>Post</button></div>
     </div>
+    <div class="singup-login-container"><a href="login">Already have an account!/Login</a><a href="singup">Don't have an account?/singup</a></div>
   </main>
   <footer>
     <div class="all-center">
