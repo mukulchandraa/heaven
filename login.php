@@ -13,7 +13,7 @@ include 'config.php';
 </head>
 <body>
     <form action="login.php" method="post"> 
-        <div class="resitration">
+        <div id="resitration">
        <div class="logo">
      <a href="index"><img src="img/heaven.png" alt="HEAVEN"></a>   
     </div> 
@@ -28,5 +28,7 @@ include 'config.php';
        <a href="singup">Don't have an account?</a>
     </div>
 </form>
+
+<script src="js/login/loginvalidation.js"></script>
 </body>
 </html>

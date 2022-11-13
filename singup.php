@@ -33,22 +33,23 @@ $con->close();
 
 <body>
     <form action="singup.php" method="post"> 
-        <div class="resitration">
+        <div id="resitration">
        <div class="logo">
     <a href="index"><img src="img/heaven.png" alt="HEAVEN"></a>
     </div> 
        <p>Create a new account</p> 
 
-   <input type="text" name="name" id="name" placeholder="username"required>
- 
+   <input type="text" name="name" id="name"  placeholder="username"  value = "" required>
     
-      <input  type="text" name="gender" id="gender" placeholder="Male/Female/Other" required>
+      <input  type="text" name="gender" id="gender"  placeholder="Male/Female/Other" value = "" required>
 
-        <input type="email" name="email" id="email" placeholder="email address" required>
+        <input type="email" name="email" id="email"  placeholder="email address" value = "" required>
         
-        <input type="phone" name="phone" id="phone" placeholder="Phone number">
+        <input type="phone" name="phone" id="phone"   placeholder="Phone number"  value = "">
         
-        <input type="password" name="password" id="password" placeholder="Create password" required>
+        <input type="password" name="password"   id="password" placeholder="Create password" value = ""  required>
+
+        <input type="password" name="comfirm password"   id="cpassword" placeholder="comfirm password" value = ""  required>
         
         
         <button>CREATE MY HEAVEN ACCOUNT</button>
@@ -56,8 +57,6 @@ $con->close();
        <a href="login">Already have an account?</a>
     </div>
 </form>
-
-
-
+<script src="js/singup/singup_validation.js"></script>
 </body>
 </html>

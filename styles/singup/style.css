@@ -2,16 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
    
 }
-.resitration{
+#resitration{
     border: 2px solid rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
     height: 100vh;
+    width: 100vw;
+
 
 }
 .logo{
@@ -22,6 +24,16 @@
     margin: 2% auto;
 
 }
+
+.Error {
+    width: 353px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: red;
+    margin-right: -15px;
+}
+
 img{
     width: 50%;
 }
@@ -32,6 +44,7 @@ box-sizing: border-box;
 width: 353px;
 overflow: hidden;
 outline: none;
+height: 40px;
 
 }
 button{
@@ -51,7 +64,7 @@ button{
     color: rgb(255, 255, 255);
     border-radius: 1%;
 }
-.resitration a {
+#resitration a {
     text-decoration: none;
     display: flex;
     justify-content: center;
