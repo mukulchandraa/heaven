@@ -31,7 +31,7 @@ include 'config.php';
         type="text" placeholder="Search or post to your community" id="Search">
       <div class="btn"><button>Post</button></div>
     </div>
-    <div class="singup-login-container"><a href="login">Already have an account/Login</a><a href="singup">Don't have an account?/singup</a></div>
+    <div class="singup-login-container"><a href="singup">Don't have an account?/singup</a><a href="login">Already have an account/Login</a></div>
   </main>
   <footer>
     <div class="all-center">
